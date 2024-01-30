@@ -1,0 +1,246 @@
+// font-size
+@mixin font-size($br) {
+  font-size: $br;
+}
+@mixin font-size-default($br) {
+  font-size: $br !important;
+}
+
+// Width
+@mixin width($width) {
+  width: $width;
+}
+@mixin width-default($width) {
+  width: $width !important;
+}
+@mixin min-width($width) {
+  min-width: $width;
+}
+@mixin min-width-default($width) {
+  min-width: $width !important;
+}
+@mixin max-width($width) {
+  max-width: $width;
+}
+@mixin max-width-default($width) {
+  max-width: $width !important;
+}
+
+// Height
+@mixin height($height) {
+  height: $height;
+}
+@mixin height-default($height) {
+  height: $height !important;
+}
+@mixin min-height($height) {
+  min-height: $height;
+}
+@mixin min-height-default($height) {
+  min-height: $height !important;
+}
+@mixin max-height($height) {
+  max-height: $height;
+}
+@mixin max-height-default($height) {
+  max-height: $height !important;
+}
+
+// border radius mixin
+@mixin border-radius($br) {
+  border-radius: $br;
+}
+
+@mixin border-radius-default($br) {
+  border-radius: $br !important;
+}
+
+// Line Height
+@mixin line-height($line-height) {
+  line-height: $line-height;
+}
+@mixin line-height-default($line-height) {
+  line-height: $line-height !important;
+}
+
+//margin
+@mixin margin($margin){
+  margin:$margin;
+}
+@mixin margin-default($margin){
+  margin:$margin !important;
+}
+@mixin margin-top($margin-top) {
+  margin-top: $margin-top;
+}
+@mixin margin-top-default($margin-top) {
+  margin-top: $margin-top !important;
+}
+@mixin margin-right($margin-right) {
+  margin-right: $margin-right;
+}
+@mixin margin-right-default($margin-right) {
+  margin-right: $margin-right !important;
+}
+@mixin margin-bottom($margin-bottom) {
+  margin-bottom: $margin-bottom;
+}
+@mixin margin-bottom-default($margin-bottom) {
+  margin-bottom: $margin-bottom !important;
+}
+@mixin margin-left($margin-left) {
+  margin-left: $margin-left;
+}
+@mixin margin-left-default($margin-left) {
+  margin-left: $margin-left !important;
+}
+
+//padding
+@mixin padding($padding){
+  padding:$padding;
+}
+@mixin padding-default($padding){
+  padding:$padding !important;
+}
+@mixin padding-top($padding-top) {
+  padding-top: $padding-top;
+}
+@mixin padding-top-default($padding-top) {
+  padding-top: $padding-top !important;
+}
+@mixin padding-right($padding-right) {
+  padding-right: $padding-right;
+}
+@mixin padding-right-default($padding-right) {
+  padding-right: $padding-right !important;
+}
+@mixin padding-bottom($padding-bottom) {
+  padding-bottom: $padding-bottom;
+}
+@mixin padding-bottom-default($padding-bottom) {
+  padding-bottom: $padding-bottom !important;
+}
+@mixin padding-left($padding-left) {
+  padding-left: $padding-left;
+}
+@mixin padding-left-default($padding-left) {
+  padding-left: $padding-left !important;
+}
+
+// Position
+@mixin top($top) {
+  top: $top;
+}
+@mixin top-default($top) {
+  top: $top !important;
+}
+@mixin right($right) {
+  right: $right;
+}
+@mixin right-default($right) {
+  right: $right !important;
+}
+@mixin bottom($bottom) {
+  bottom: $bottom;
+}
+@mixin bottom-default($bottom) {
+  bottom: $bottom !important;
+}
+@mixin left($left) {
+  left: $left;
+}
+@mixin left-default($left) {
+  left: $left !important;
+}
+
+
+//text ecllipse
+@mixin text-truncate{
+  white-space: nowrap;
+  overflow: $hidden;
+  text-overflow: ellipsis;
+}
+
+// flex with center mixin
+@mixin flex-block($flex,$content,$juscontent,$direction){
+  display: $flex;
+  align-items: $content;
+  justify-content: $juscontent;
+  flex-direction: $direction;
+}
+
+@mixin flex-block-center($flex,$content,$juscontent){
+  display: $flex;
+  align-items: $content;
+  justify-content: $juscontent;
+}
+
+@mixin flex-align($flex,$content){
+  display: $flex;
+  align-items: $content;
+}
+
+@mixin flex-justify($flex,$content){
+  display: $flex;
+  justify-content: $content;
+}
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+@mixin transition($property) {
+  -webkit-transition: $property;
+  -moz-transition: $property;
+  -o-transition: $property;
+  transition: $property;
+}
+
+// Button
+@mixin button-bg($bg) {
+  background: $bg;
+  @include border-radius(0.4rem);
+  color:$Abbey;
+  cursor: $pointer;
+  &:hover {
+    background:darken($bg,8%);
+    @include transition(all 0.3s ease);
+  }
+  &:active {
+    background:darken($bg,25%);
+  }
+}
+
+// Z-Index
+@mixin z-index($zindex) {
+  z-index: $zindex;
+}
+@mixin z-index-default($zindex) {
+  z-index: $zindex !important;
+}
+
+// Opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+}
+@mixin opacity-default($opacity) {
+  opacity: $opacity !important;
+}
+
+// Border-width
+@mixin border-width($border-width) {
+  border-width: $border-width;
+}
+@mixin border-width-default($border-width) {
+  border-width: $border-width !important;
+}
+
+// Font Weight
+@mixin font-weight($font-weight) {
+  font-weight: $font-weight;
+}
+@mixin font-weight-default($font-weight) {
+  font-weight: $font-weight !important;
+}
