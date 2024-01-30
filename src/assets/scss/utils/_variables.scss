@@ -1,0 +1,196 @@
+// =====================================color variables starts here=========================
+// All Colors
+$transparent: transparent;
+$White: #ffffff;
+// Product Color System
+// Black
+// Obsidian
+$obsidian-b1: #000000;
+$obsidian: #1E1E29;
+$obsidian-a1: #22222F;
+$obsidian-a2: #2B2B3B;
+$obsidian-a3: #343447;
+$obsidian-a4: #3E3E56;
+
+// Blue
+// Cobalt
+
+$cobalt-b4: #002B5F;
+$cobalt-b3: #003778;
+$cobalt-b2: #004292;
+$cobalt-b1: #004EAB;
+$cobalt: #0065DE;
+$cobalt-a1: #1F85FF;
+$cobalt-a2: #99C7FF;
+$cobalt-a3: #D6E9FF;
+$cobalt-a4: #F5F9FF;
+
+// Sea Foam
+
+$seafoam-b4: #008A8A;
+$seafoam-b3: #00A1A1;
+$seafoam-b2: #00B8B8;
+$seafoam-b1: #00CFCF;
+$seafoam: #00E6E6;
+$seafoam-a1: #4DEEEE;
+$seafoam-a2: #99F5F5;
+$seafoam-a3: #CCFAFA;
+$seafoam-a4: #E8FDFD;
+
+// Gray
+
+// Slate
+
+$slate-b7: #4D5E80;
+$slate-b6: #6076A0;
+$slate-b5: #8091B3;
+$slate-b4: #A0ADC6;
+$slate-b3: #B0BBD0;
+$slate-b2: #C0C9D9;
+$slate-b1: #CAD1DF;
+$slate: #D3D9E5;
+$slate-a1: #DDE1EB;
+$slate-a2: #E6EAF0;
+$slate-a3: #F0F2F6;
+$slate-a4: #F6F6FB;
+
+
+// Green
+
+$green-stronger: #008562;
+$green-strong: #00D49C;
+$green: #59D4B4;
+$green-soft: #82DEC6;
+$green-softer: #CDF2E8;
+$green-bleach: #F2FCF9;
+
+// Yellow
+
+$yellow-stronger: #FEDF33;
+$yellow-strong: #FEE86C;
+$yellow: #FEF09F;
+$yellow-softer: #FEF7D2;
+$yellow-bleach: #FFFEF5;
+
+// Orange
+
+$orange-stronger: #E07431;
+$orange-strong: #FF914D;
+$orange: #FFA46B;
+$orange-soft: #FFC39E;
+$orange-softer: #FFE3D2;
+$orange-bleach: #FFF8F4;
+
+// Red
+
+$red-stronger: #CC3D3D;
+$red-strong: #FF4D4D;
+$red: #FF6E6E;
+$red-soft: #FFA1A1;
+$red-softer: #FFD3D3;
+$red-bleach: #FFF4F4;
+
+// Pink
+
+$pink-stronger: #CC29A2;
+$pink-strong: #FF4DD1;
+$pink: #FF6BD9;
+$pink-soft: #FF9EE6;
+$pink-softer: #FFD2F3;
+$pink-bleach: #FFF4FC;
+
+// Purple
+
+$purple-stronger: #913DCC;
+$purple-strong: #B54DFF;
+$purple: #C87AFF;
+$purple-soft: #DDADFF;
+$purple-softer: #EED7FF;
+$purple-bleach: #FBF5FF;
+
+// Font Family
+
+$font-poppins: 'Poppins', sans-serif;
+$font-outfit: 'Outfit', sans-serif;
+
+// =====================================color variables ends here=========================
+// Properties Variables
+$none: none;
+$block: block;
+$inline-block: inline-block;
+$flex: flex;
+$inline-flex: inline-flex;
+$webkit-box: -webkit-box;
+$webkit-inline-box: -webkit-inline-box;
+$flex-start: flex-start;
+$flex-end: flex-end;
+$grid: grid;
+$table: table;
+$space-between: space-between;
+
+$start: start;
+$right: right;
+$left: left;
+$center: center;
+
+$pointer: pointer;
+$default: default;
+$move: move;
+$all-scroll: all-scroll;
+$scroll: scroll;
+$progress: progress;
+$not-allowed: not-allowed;
+
+$hidden: hidden;
+$visible: visible;
+$both: both;
+$contain: contain;
+
+$normal: normal;
+$auto: auto;
+$initial: initial;
+$inherit: inherit;
+$unset: unset;
+$nowrap: nowrap;
+$wrap: wrap;
+$pre-wrap: pre-wrap;
+$revert: revert;
+
+$break-all: break-all;
+$pre-line: pre-line;
+$capitalize: capitalize;
+$uppercase: uppercase;
+$lowercase: lowercase;
+$line-through: line-through;
+$underline: underline;
+$italic: italic;
+
+$break-word: break-word;
+
+$absolute: absolute;
+
+$content-box: content-box;
+$top: top;
+$bottom: bottom;
+$middle: middle;
+$disc: disc;
+$column: column;
+$ellipsis: ellipsis;
+$no-repeat: no-repeat;
+
+// =====================================space variables===================================
+$spaceamounts: (
+  0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100);
+$valuefont: (
+  5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30);
+// Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right); // Leave this variable alone
+// =====================================end space variables===================================
+// Media Query variables
+$information-phone-portrait: "only screen and (max-width : 576px)";
+$information-phone-landscape: "(min-width: 576px) and (max-width: 767.98px)";
+$information-phone: "only screen and (max-width : 767px)";
+$information-tablet-portrait: "(min-width: 767.98px) and (max-width: 991.98px)";
+$information-tablet-portrait-landscape: "(min-width: 767.98px) and (max-width: 1199px)";
+$information-tablet-landscape: "(min-width: 991.98px) and (max-width: 1199px)";
+$information-tablet: "only screen and (max-width : 991px)";
