@@ -68,7 +68,7 @@
 // Line truncate
 
 %line-truncate-normal{
-  overflow: $hidden !important;
+  overflow: hidden !important;
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
