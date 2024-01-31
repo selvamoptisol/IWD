@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import {CheckboxModule} from 'primeng/checkbox';
 import { HomeComponent } from './home/home.component';
 import { VanishreePortfolioComponent } from './portfolios/vanishree-portfolio/vanishree-portfolio.component';
+import { ChandruPortfolioComponent } from './portfolios/chandru-portfolio/chandru-portfolio.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    VanishreePortfolioComponent
+    VanishreePortfolioComponent,
+    ChandruPortfolioComponent
   ],
   imports: [
     BrowserModule,
