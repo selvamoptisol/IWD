@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {CheckboxModule} from 'primeng/checkbox';
 import { HomeComponent } from './home/home.component';
+import { VanishreePortfolioComponent } from './portfolios/vanishree-portfolio/vanishree-portfolio.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    VanishreePortfolioComponent
   ],
   imports: [
     BrowserModule,
